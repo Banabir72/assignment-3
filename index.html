@@ -14,6 +14,8 @@
     <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b7e35cc4f5.js" crossorigin="anonymous"></script>
     <style>
         .manrope-font {
             font-family: "Manrope", sans-serif;
@@ -22,8 +24,63 @@
 </head>
 
 <body class="manrope-font">
-    <header>
-    
+    <header class="bg-[#e9e9e927]">
+    <!-- navbar section -->
+    <div class="navbar container mx-auto">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li class="text-[#494949] font-extrabold"><a>Home</a></li>
+              <li class="text-[#737373]"><a>Services</a></li>
+              <li class="text-[#737373]"><a>Portfolio</a></li>
+              <li class="text-[#737373]"><a>Blogs</a></li>
+              <li class="text-[#737373]"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl font-extrabold text-[#212121]"><i class="fa-solid fa-arrow-right w-8 h-8 bg-[#ABEF5F] rounded-full justify-center items-center text-xl -rotate-45 inline-flex"></i>Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="text-[#494949] font-extrabold"><a>Home</a></li>
+              <li class="text-[#737373]"><a>Services</a></li>
+              <li class="text-[#737373]"><a>Portfolio</a></li>
+              <li class="text-[#737373]"><a>Blogs</a></li>
+              <li class="text-[#737373]"><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+            <a><i class="fa-solid fa-magnifying-glass border border-gray-500 rounded-full w-12 h-12 inline-flex items-center justify-center bg-[#FFFFFF] mr-4"></i></a> 
+            <a><i class="fa-solid fa-cart-shopping border border-gray-500 rounded-full w-12 h-12 inline-flex items-center justify-center bg-[#FFFFFF] mr-4"></i></a>
+          <a class="btn text-xl text-[#1C1C1C] font-extrabold rounded-3xl bg-[#ABEF5F]">Book Consult<i class="fa-solid fa-arrow-right w-8 h-8 bg-black text-white rounded-full justify-center items-center text-xl -rotate-45 inline-flex"></i></a>
+        </div>
+      </div>
+      <!-- banner section -->
+       <section class="items-center text-center justify-center mx-auto">
+        <!-- image section -->
+        <div class=""><img class="items-center justify-center mx-auto my-6" src="images/banner.png" alt=""></div>
+        <!-- text section -->
+         <div>
+            <h1 class="text-6xl font-extrabold text-[#212121] my-6">A barn house of this design has a <br>striking appearance</h1>
+            <p class="font-medium text-[#494949] my-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+            <a class="btn text-xl text-[#1C1C1C] font-extrabold rounded-3xl bg-[#acef5f85]">View Details<i class="fa-solid fa-arrow-right w-8 h-8 bg-[#ABEF5F] text-black rounded-full justify-center items-center text-xl -rotate-45 inline-flex"></i></a>
+         </div>
+       </section>
     </header>
 
     <body>
