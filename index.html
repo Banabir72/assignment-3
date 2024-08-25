@@ -126,8 +126,8 @@
       </div>
     </section>
     <!-- Review Section -->
-    <section class="bg-gray-100 pb-10">
-      <div class=" container mx-auto px-5 lg:px-0 lg:flex gap-6 bg bg-white rounded-3xl lg:justify-evenly">
+    <section class="bg-gray-100 pb-10 px-5">
+      <div class="container mx-auto px-5 lg:px-0 lg:flex gap-6 bg bg-white rounded-3xl lg:justify-evenly">
         <!-- review card -->
         <div class="items-center justify-center text-center bg-white p-14">
           <div><i class="fa-regular fa-message text-3xl"></i></div>
@@ -379,14 +379,14 @@
             sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <!-- Card section -->
-        <div class="space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:grid-rows-8 gap-6">
-          <input class="rounded-3xl py-5 pl-5" type="text" placeholder="First Name*">
-          <input class="rounded-3xl py-5 pl-5" type="text" placeholder="Last Name*">
-          <input class="rounded-3xl py-5 pl-5" type="text" placeholder="Phone Number*">
-          <input class="rounded-3xl py-5 pl-5" type="text" placeholder="Email Number*">
-          <textarea class="text-[#A0A0A0] rounded-3xl py-5 pl-5 col-span-2 row-span-5" name=""
+        <div class="space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:grid-rows-8 lg:gap-6">
+          <input class="rounded-3xl py-5 pl-5 w-full" type="text" placeholder="First Name*">
+          <input class="rounded-3xl py-5 pl-5 w-full" type="text" placeholder="Last Name*">
+          <input class="rounded-3xl py-5 pl-5 w-full" type="text" placeholder="Phone Number*">
+          <input class="rounded-3xl py-5 pl-5 w-full" type="text" placeholder="Email Number*">
+          <textarea class="text-[#A0A0A0] rounded-3xl py-5 pl-5 col-span-2 row-span-5 w-full" name=""
             id="">Write your message here</textarea>
-          <a class="btn text-xl text-[#1C1C1C] font-extrabold rounded-3xl bg-[#ABEF5F] col-span-2">Send Mail<i
+          <a class="btn text-xl text-[#1C1C1C] font-extrabold rounded-3xl bg-[#ABEF5F] col-span-2 w-full">Send Mail<i
               class="fa-solid fa-arrow-right w-8 h-8 bg-black text-white rounded-full justify-center items-center text-xl -rotate-45 inline-flex"></i></a>
         </div>
       </div>
@@ -395,14 +395,12 @@
   <footer class="bg-[#1C1C1C] text-center py-24 items-center mx-auto">
   <a class="btn btn-ghost text-4xl font-extrabold text-[#E9E9E9] mb-4"><i class="fa-solid fa-arrow-right w-8 h-8 bg-[#ABEF5F] rounded-full justify-center items-center text-xl text-black -rotate-45 inline-flex"></i>Rinterio</a>
   <p class="text-[#737373] mb-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring <br> weathered wood, sleek metal accents.</p>
-  <div class="flex-col lg:flex mx-auto items-center justify-center mb-12">
-    <ul class="menu menu-horizontal px-1 gap-28">
-      <li class="text-[#E9E9E9]"><a>Home</a></li>
-      <li class="text-[#E9E9E9]"><a>Services</a></li>
-      <li class="text-[#E9E9E9]"><a>Portfolio</a></li>
-      <li class="text-[#E9E9E9]"><a>Blogs</a></li>
-      <li class="text-[#E9E9E9]"><a>Contact Us</a></li>
-    </ul>
+  <div class="space-y-6 lg:space-y-0 lg:flex mx-auto items-center justify-center mb-12 gap-28">
+    <div><a class="text-[#E9E9E9]">Home</a></div>
+    <div><a class="text-[#E9E9E9]">Services</a></div>
+    <div><a class="text-[#E9E9E9]">Portfolio</a></div>
+    <div><a class="text-[#E9E9E9]">Blogs</a></div>
+    <div><a class="text-[#E9E9E9]">Contact Us</a></div>
   </div>
   <a class="btn text-xl text-[#1C1C1C] font-bold rounded-3xl bg-[#ABEF5F] mb-8">Book Consult<i
     class="fa-solid fa-arrow-right w-8 h-8 bg-black text-white rounded-full justify-center items-center text-xl -rotate-45 inline-flex"></i></a>
